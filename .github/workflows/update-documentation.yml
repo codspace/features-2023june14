@@ -18,6 +18,7 @@ jobs:
         with:
           generate-docs: "true"
           base-path-to-features: "./src"
+          devcontainer-cli-debug-mode: "true"
 
       - name: Create a PR for Documentation
         id: push_image_info
